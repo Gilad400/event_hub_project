@@ -27,7 +27,7 @@ function UserBox() {
             ) : (
                 <div className="guest-box">
                     Hi, guest
-                    <button onClick={() => setShowSignIn(true)}>Sign Up</button>
+                    <button onClick={() => setShowSignIn(true)}>Sign In</button>
                     <button onClick={() => setShowLogin(true)}>Log In</button>
                 </div>
             )}

@@ -14,7 +14,7 @@ function SignInModal({ onClose, onSignIn }) {
     return (
         <div className="modal">
             <div className="modal-content">
-                <h2>Sign Up</h2>
+                <h2>Sign in</h2>
                 <label>Username:</label>
                 <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
                 <label>Email:</label>
