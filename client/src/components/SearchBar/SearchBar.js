@@ -80,6 +80,7 @@ const SearchBar = () => {
                 </div>
 
                 <div className="form-row">
+                    <label>from:</label>
                     <div className="form-group">
                         <input
                             type="date"
