@@ -11,12 +11,6 @@ export const searchEvents = async ({
 }) => {
     const params = new URLSearchParams();
     
-    //if (keyword) params.append('keyword', keyword);
-    //if (city) params.append('city', city);
-    //if (stateCode) params.append('state_code', stateCode);
-    //if (startDate) params.append('start_date', startDate);
-    //if (endDate) params.append('end_date', endDate);
-    //if (segment) params.append('segment', segment);
     if (keyword) params.append('keyword', keyword);
     if (city) params.append('city', city);
     if (stateCode) params.append('stateCode', stateCode); 

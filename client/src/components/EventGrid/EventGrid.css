@@ -55,3 +55,31 @@
     padding: 2rem;
     color: #666;
 }
+
+.heart-button {
+    background: none;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.heart-button::before {
+    content: '❤'; /* Unicode for heart symbol */
+    font-size: 1.5rem;
+    color: #d9534f;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+}
+
+.heart-button:hover {
+    transform: scale(1.2);
+}
+
+.heart-button:active {
+    transform: scale(0.9);
+}

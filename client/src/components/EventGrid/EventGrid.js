@@ -25,7 +25,12 @@ const EventGrid = ({ events }) => {
                                     : 'Price not available'
                                 }
                             </p>
+                            <button 
+                                className="heart-button"
+                                onClick="saveForLater(event.id)"
+                            ></button>
                         </div>
+                        
                     </div>
                 ))
             )}
@@ -34,3 +39,4 @@ const EventGrid = ({ events }) => {
 };
 
 export default EventGrid;
+
